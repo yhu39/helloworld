@@ -6,4 +6,4 @@ WORKDIR /app
 COPY hello.py .
 
 # 定义默认运行命令
-CMD ["python", "hello.py"]
+ENTRYPOINT ["python", "hello.py"]
